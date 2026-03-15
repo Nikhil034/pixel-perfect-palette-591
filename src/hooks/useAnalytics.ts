@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
-import { v4 as uuidv4 } from "crypto";
+
 
 function getVisitorId(): string {
   let id = localStorage.getItem("kozy_visitor_id");
